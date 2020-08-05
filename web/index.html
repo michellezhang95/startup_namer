@@ -18,6 +18,26 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAh3ONTjMaKx9Vd--2Z11MlaPOXjvEW4o4",
+    authDomain: "startup-namer-732af.firebaseapp.com",
+    databaseURL: "https://startup-namer-732af.firebaseio.com",
+    projectId: "startup-namer-732af",
+    storageBucket: "startup-namer-732af.appspot.com",
+    messagingSenderId: "886043024188",
+    appId: "1:886043024188:web:44b9f247edf54ebf04dc39"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
